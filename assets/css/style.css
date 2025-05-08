@@ -4,7 +4,9 @@
 
 /* Main Content */
 
-
+img {
+    object-fit:cover; 
+}
 
 /* Footer */
 #social-media {
