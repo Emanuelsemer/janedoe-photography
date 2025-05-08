@@ -87,31 +87,27 @@
 
     <main class="container">
         
-        <section class="row">
+        <form class="row" method="POST" action="https://formdump.codeinstitute.net">
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">First name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your first name" required>
+                <label for="firstname" class="form-label">First name</label>
+                <input type="text" class="form-control" id="firstname" placeholder="Enter your first name" required>
               </div>
              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Last name</label>
-                <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Enter your last name" required>
-              </div>
-              <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Phone</label>
-                <input type="number" class="form-control" id="exampleFormControlInput1" placeholder="Enter your phone number" required>
+                <label for="lastname" class="form-label">Last name</label>
+                <input type="text" class="form-control" id="lastname" placeholder="Enter your last name" required>
               </div>
             <div class="mb-3">
-                <label for="exampleFormControlInput1" class="form-label">Email address</label>
-                <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="name@example.com" required>
+                <label for="email" class="form-label">Email address</label>
+                <input type="email" class="form-control" id="email" placeholder="name@example.com" required>
               </div>
               <div class="mb-3">
-                <label for="exampleFormControlTextarea1" class="form-label">Message</label>
-                <textarea class="form-control" id="exampleFormControlTextarea1" placeholder="Write a few lines what kind of portrait photos you like to have" rows="3"></textarea>
+                <label for="message" class="form-label">Message</label>
+                <textarea class="form-control" id="message" placeholder="Write a few lines what kind of portrait photos you like to have" rows="3" required></textarea>
               </div>
               <div class="d-grid gap-2">
                 <button class="btn btn-dark btn btn-outline-light" type="submit">Submit</button>
               </div>
-        </section>
+            </form>
     </main>
 
 
