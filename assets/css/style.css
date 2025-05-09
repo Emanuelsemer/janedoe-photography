@@ -28,3 +28,7 @@ img {
 footer {
     background-color:#f5f5f5; 
 }
+
+footer div {
+    padding-top: 1rem;
+}
