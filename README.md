@@ -154,15 +154,6 @@ Each page was designed with layout, spacing, and responsiveness in mind. These m
 
 ## Features
 
-⚠️ INSTRUCTIONS ⚠️
-
-In this section, you should go over the different parts of your project, and describe each feature. You should explain what value each of the features provides for the user, focusing on your target audience, what they want to achieve, and how your project can help them achieve these things.
-
-**IMPORTANT**: Remember to always include a screenshot of each individual feature!
-
-⚠️ --- END --- ⚠️
-
-
 ### Existing Features
 
 | **Feature**                            | **Notes**                                                                                                                                                                                                                                                   | **Screenshot**                                             |
@@ -287,19 +278,20 @@ There are no remaining major differences between the local version when compared
 
 ## Credits
 
-⚠️ INSTRUCTIONS ⚠️
+Credit: Chatgpt code for being able to submit a form and land on the sucess page. (there is javascript wish i haven't learned yet)
 
-In the following sections, you need to reference where you got your content, media, and any extra help. It is common practice to use code from other repositories and tutorials (which is totally acceptable), however, it is important to be very specific about these sources to avoid potential plagiarism.
+            <script>
+                document.getElementById('contactForm').addEventListener('submit', function(event) {
+                  event.preventDefault(); // prevent actual submission
+                  window.location.href = 'success.html'; // redirect
+                });
+              </script>
 
-⚠️ --- END ---⚠️
+Credit: Love running project code for social media links 
+
+![Credit](<documentation/agile development process/credit/footer /Screenshot 2025-05-17 at 01.08.09.png>)
 
 ### Content
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to provide attribution links for any borrowed code snippets, elements, and resources. Ideally, you should provide an actual link to every resource used, not just a generic link to the main site. If you've used multiple components from the same source (such as Bootstrap), then you only need to list it once, but if it's multiple Codepen samples, then you should list each example individually. If you've used AI for some assistance (such as ChatGPT or Perplexity), be sure to mention that as well. A few examples have been provided below to give you some ideas.
-
-⚠️ --- END ---⚠️
 
 | Source | Notes |
 | --- | --- |
@@ -347,12 +339,6 @@ All photos used in this project were sourced from Pexels, a free and royalty-fre
 | [TinyPNG](https://tinypng.com) | Compressing images < 5MB |
 
 ### Acknowledgements
-
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to provide attribution and acknowledgement to any supports that helped, encouraged, or supported you throughout the development stages of this project. It's always lovely to appreciate those that help us grow and improve our developer skills. A few examples have been provided below to give you some ideas.
-
-⚠️ --- END ---⚠️
 
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) Tutor Team for their assistance with troubleshooting and debugging some project issues.
