@@ -136,8 +136,7 @@ Each page was designed with layout, spacing, and responsiveness in mind. These m
 | Portfolio | ![!\[Mobile Portfolio\]](<documentation/mockups /mobile/portfoliopage/portfolio-iphone-se.png>) | ![Tablet Portfolio](<documentation/mockups /tablet/portfoliopage/portfolio-ipad-mini.png>)| ![Desktop Portfolio](<documentation/mockups /desktop/portfoliopage /portfolio.png>) |
 | Contact | ![Mobile Contact](<documentation/mockups /mobile/contactpage/contact-iphone-se.png>) | ![Tablet Contact](<documentation/mockups /tablet/contactpage/contact-ipad-mini.png>) | ![Desktop Contact](<documentation/mockups /desktop/contactpage/contact.png>)|
 | Confirmation | ![Mobile confirmation](<documentation/mockups /mobile/confirmation/confirmation-iphone-se.png>) | ![Tablet confirmation](<documentation/mockups /tablet/confirmation/confirmation-ipad-mini.png>)| ![Desktop confirmation](<documentation/mockups /desktop/confirmation/confirmation.png>)|
-
-| 404 | ![screenshot](documentation/wireframes/mobile-404.png) | ![screenshot](documentation/wireframes/tablet-404.png) | ![screenshot](documentation/wireframes/desktop-404.png) |
+| 404 | ![Mobile 404](<documentation/mockups /mobile/404/404-iphone-se.png>) |![Tablet 404](<documentation/mockups /tablet/404/404-ipad-mini.png>)  | ![Desktop 404](<documentation/mockups /desktop/404/404.png>) |
 
 ## User Stories
 
