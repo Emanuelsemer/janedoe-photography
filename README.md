@@ -140,22 +140,17 @@ Each page was designed with layout, spacing, and responsiveness in mind. These m
 
 ## User Stories
 
-⚠️ INSTRUCTIONS ⚠️
-
-In this section, list all of your possible user stories for the project. Samples have been provided below using the example walkthrough project for your inspiration. Make sure to adjust to match your own project features!
-
-⚠️ --- END --- ⚠️
-
-| Target | Expectation | Outcome |
-| --- | --- | --- |
-| As a user | I would like to see examples of why I should join | so that I can learn about the club’s mission and purpose before deciding to join. |
-| As a user | I would like to view the running schedule/timetable | so that I can decide when to join a session. |
-| As a user | I would like to see the details of different running events | so that I can prepare accordingly. |
-| As an user | I would like to view a gallery of past events | so that I can see photos of myself and others from previous runs. |
-| As a user | I would like to sign up for the running club | so that I can join the community and participate in events. |
-| As a user | I would like to follow the club on various platforms (e.g., Instagram, Facebook, Twitter) | so that I can stay updated with club news and events. |
-| As a user | I would like the website to be fully responsive | so that I can easily navigate and access information from my phone, tablet, or desktop. |
-| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. |
+| **Target**                  | **Expectation**                                                 | **Outcome**                                                           |
+| --------------------------- | --------------------------------------------------------------- | --------------------------------------------------------------------- |
+| As a user                | I want to see a clear main navigation menu                      | so that I can easily move between the main sections of the site.      |
+| As a user                   | I want the content to be structured with clear headings         | so that I can find what I’m looking for without confusion.            |
+| As a user            | I want the website to adjust to my screen size                  | so that I can use it comfortably on any device.                       |
+| As a user | I want high contrast and alt text for images                    | so that I can understand the content using assistive technology.      |
+| As a visitor                | I want all graphics to have a consistent style and color scheme | so the site looks professional and unified.                           |
+| As a visitor                | I want foreground content to remain clear and readable          | so I can focus on the text without distraction from backgrounds.      |
+| As a potential client       | I want to view a gallery of portrait images                     | so I can evaluate the photographer’s style and quality.               |
+| As a visitor                | I want to read about the photographer                           | so I can understand their background and creative approach.           |
+| As a potential client       | I want to contact the photographer via a form           | so I can easily request a portrait session.                           |
 
 ## Features
 
@@ -167,46 +162,33 @@ In this section, you should go over the different parts of your project, and des
 
 ⚠️ --- END --- ⚠️
 
+
 ### Existing Features
 
-| Feature | Notes | Screenshot |
-| --- | --- | --- |
-| Navbar | Featured on all three pages, the full responsive navigation bar includes links to the Logo, Home page, Gallery, and Signup page, and is identical in each page to allow for easy navigation. On the smallest screens, a burger icon is used to toggle the navbar so it doesn't take up too much space. This section will allow the user to easily navigate from page to page across all devices without having to revert back to the previous page via the "back" button. The navbar is also `fixed`, so it stays in view even if the user has scrolled to the bottom of the page. | ![screenshot](documentation/features/navbar.png) |
-| Hero Image | The landing includes a photo with text-overlay to allow the user to see exactly which location this site would be applicable to. This section introduces the user to *Love Running* with an eye-catching animation to grab their attention. | ![screenshot](documentation/features/hero-image.png) |
-| Club Ethos | The club ethos section will allow the user to see the benefits of joining the *Love Running* meetups, as well as the benefits of running overall. The user will see the value of signing up for the *Love Running* meetups. This should encourage the user to consider running as their form of exercise. | ![screenshot](documentation/features/club-ethos.png) |
-| Schedule | This section will allow the user to see exactly when the meetups will happen, where they will be located, and how long the run will be (in kilometers). The type of run (trail or road) is also shown, to help runners choose the meetups that best match their preference. This section will be updated as these times change to keep the user up to date. | ![screenshot](documentation/features/schedule.png) |
-| Footer | The footer includes links to the relevant social media sites for *Love Running*. The links will open in a new tab to allow easy navigation for the user. The footer is valuable to the user, as it encourages them to keep connected via social media. | ![screenshot](documentation/features/footer.png) |
-| Gallery | The gallery will provide the user with supporting images to see what the meet-ups look like. This section is valuable to the user, as they will be able to easily identify the types of events that the organization puts together. It's responsive so no images stretch or skew, showing images stacked by 1 on mobile, by 2 on smaller tablets, by 3 on desktop, and by 4 on larger screens. | ![screenshot](documentation/features/gallery.png) |
-| Signup | This page will allow the user to sign up to *Love Running* and start their running journey with the community. The user will be able specify if they would like to take part in road, trail, or both types of running. The user will be asked to submit their full name and email address. | ![screenshot](documentation/features/singup.png) |
-| Confirmation | The confirmation page will give the illusion that the signup form was submitted successfully to the *Love Running* club. Due to the lack of a database or email system so far, this is a fake confirmation page, and will automatically redirect the user back to the home page after 10 seconds. | ![screenshot](documentation/features/confirmation.png) |
-| 404 | The 404 error page will indicate when a user has somehow navigated to a page that doesn't exist. This replaces the default GitHub Pages 404 page, and ties-in with the look and feel of the *Love Running* site by using the standard navbar and footer. | ![screenshot](documentation/features/404.png) |
+| **Feature**                            | **Notes**                                                                                                                                                                                                                                                   | **Screenshot**                                             |
+| -------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------- |
+| **Navbar**                             | Appears on all three pages (Home, Portfolio, Contact). Provides links to key sections with a clean, minimal design. On mobile, it collapses into a hamburger menu, improving usability across devices. Ensures users can navigate easily without using the browser’s back button. |  ![Navbar](<documentation/feature screenshots/navbar/Screenshot 2025-05-16 at 22.04.28.png>)         |
+| **Hero Image (Home)**                  | The homepage starts with a large hero image of a ballet dancer, visually establishing the artistic and professional tone. This grabs the user’s attention immediately and sets the mood for the photographer’s style.                                                             | ![hero image](<documentation/feature screenshots/hero image(home)/Screenshot 2025-05-16 at 22.07.22.png>)|
+| **About Section**                      | Located on the homepage, this section introduces Jane Doe and her photography philosophy. Helps build trust and personal connection with the user, especially potential clients.                                                                                                  | ![About section](<documentation/feature screenshots/about section/Screenshot 2025-05-16 at 22.08.46.png>) |
+| **Call to Action (Contact Me Button)** | A clear button at the end of the About section encourages visitors to initiate contact. It is visually distinct and linked directly to the Contact page.                                                                                                                          | ![Contact me button](<documentation/feature screenshots/contact me button/Screenshot 2025-05-16 at 22.09.40.png>) |
+| **Portfolio Grid**                     | The Portfolio page displays a 4-column responsive grid of curated portrait photos. This allows users to visually explore the photographer’s range and style with ease. Grid layout adjusts for mobile and tablet views.                                                           | ![Portfolio grid](<documentation/feature screenshots/portfolio grid/portfolio.png>)|
+| **Contact Form**                       | A simple and accessible form allows visitors to send their first name, last name, email, and message. With a submit button on the bottom.                                                               | ![contact form](<documentation/feature screenshots/contact form/Screenshot 2025-05-16 at 22.14.30.png>)  |
+| **Footer**                             | Present on all pages. Includes contact email, phone number, and icons linked to Instagram, Facebook, and LinkedIn. All links open in new tabs. Reinforces brand presence and allows continued engagement off-site.                                                                |![Footer](<documentation/feature screenshots/footer/Screenshot 2025-05-16 at 22.19.51.png>) |
+| **Responsive Design**                  | All pages adapt seamlessly across mobile, tablet, and desktop devices using Bootstrap’s grid system and media queries. Ensures a smooth experience regardless of screen size.                                                                                                     | ![Responsive design](<documentation/feature screenshots/responsive design/Screenshot 2025-05-16 at 15.55.30.png>)  |
+| **404 Page**                           | A custom 404 page is included to help guide users who navigate to a non-existent route. It maintains the site’s visual style and includes the same navigation and footer for consistency.                                                                                         |   ![404 page](<documentation/feature screenshots/404 page/404.png>)         |
+| **Confirmation Redirect**              | After submitting the contact form, the user is redirected to a confirmation page or thank-you state. While no database is used, this gives the user feedback and closure.                                                                                                         | ![Confirmation page](<documentation/feature screenshots/confirmation redirect/confirmation.png>)|
 
 ### Future Features
 
-⚠️ INSTRUCTIONS ⚠️
 
-Do you have additional ideas that you'd like to include on your project in the future? Fantastic, list them here! It's always great to have plans for future improvements. Consider adding any helpful links or notes to help remind you in the future, if you revisit the project in a couple years.
 
-A few examples are listed below to align with possible ways to improve on the sample walkthrough project, to give you some inspiration.
-
-⚠️ --- END ---⚠️
-
-- **Personalized User Profiles**: Allow users to create accounts where they can track their running progress, view personal stats, and share their achievements.
-- **Training Plans**: Offer customizable training plans for runners of all levels (beginner, intermediate, advanced) with notifications and reminders.
-- **Event Registration & Payment**: Integrate an option for runners to register and pay for upcoming events or races directly through the site.
-- **Achievements & Badges**: Introduce a gamification system where users earn badges or achievements for reaching milestones (e.g., number of runs, personal bests, attending events).
-- **Interactive Maps**: Display interactive running route maps, complete with distance markers, elevation data, and difficulty ratings.
-- **Live Event Tracking**: Provide real-time tracking for major club events so users can follow along or support friends running in real-time.
-- **Runner's Blog**: Include a blog section for members to share their running experiences, tips, and stories, fostering community engagement.
-- **Leaderboards**: Add a feature where users can compare their running stats with others in the club via leaderboards (e.g., most kilometers run, fastest times).
-- **Weekly Challenges**: Implement weekly running challenges or group challenges to keep users motivated and engaged.
-- **Weather Integration**: Show local weather conditions for Dublin and suggest the best times for a run, based on user preferences.
-- **Social Sharing**: Enable users to share their runs, achievements, or event participation directly on social media from the site.
-- **Club Merchandise Store**: Introduce an online store where users can purchase branded running gear like shirts, jackets, or water bottles.
-- **Push Notifications**: Allow users to opt-in for mobile push notifications for schedule updates, new events, or motivational reminders.
-- **Virtual Runs**: Create a platform for virtual runs where members can participate remotely and still receive medals or rewards.
-- **Member Forums or Groups**: Introduce discussion boards or group chats for runners to connect, discuss upcoming events, or share training tips.
-- **Charity Partnerships**: Offer integration with local charities where club members can run to raise money or awareness for specific causes.
+- **Calendly Integration**: Allow users to book sessions directly through the website by embedding a Calendly widget. This eliminates scheduling delays and streamlines communication, providing clients with instant access to available time slots for different types of sessions (e.g., headshots, family portraits, branding shoots).
+- **Client Testimonials Carousel**: Feature a rotating carousel of real client testimonials on the homepage or portfolio page to build trust and credibility. Testimonials would include photos from their sessions and a quote about their experience.
+- **Client Preparation Guide Download**: Offer a downloadable PDF or web-based guide that helps clients prepare for their session — with tips on clothing, makeup, timing, and mindset. This helps reduce no-shows and increases shoot quality.
+- **AI Booking Assistant**: Add a AI assistant to answer quick questions about pricing, availability, or session types. This improves client communication and increases conversions from site visitors.
+- **Session Countdown & Reminders**: After booking, show users a live countdown to their session with the option to receive email or SMS reminders. This helps build anticipation and reduce missed appointments.
+- **Before & After Slider Tool**: Integrate a photo comparison slider that shows before and after retouching or editing. This helps potential clients understand the value of professional editing and builds confidence in the final product.
+- **Session Preparation tool**: Introduce an interactive feature within the booking form that allows clients to view and select from a gallery of sample portrait poses or session styles. This tool will help clients better prepare for their photoshoot by setting expectations and communicating their preferences in advance, resulting in a more seamless and personalized photography experience.
 
 ## Tools & Technologies
 
@@ -220,20 +202,11 @@ A few examples are listed below to align with possible ways to improve on the sa
 | [![badge](https://img.shields.io/badge/CSS-grey?logo=css3&logoColor=1572B6)](https://en.wikipedia.org/wiki/CSS) | Design and layout. |
 | [![badge](https://img.shields.io/badge/GitHub_Pages-grey?logo=githubpages&logoColor=222222)](https://pages.github.com) | Hosting the deployed front-end site. |
 | [![badge](https://img.shields.io/badge/Bootstrap-grey?logo=bootstrap&logoColor=7952B3)](https://getbootstrap.com) | Front-end CSS framework for modern responsiveness and pre-built components. |
-| [![badge](https://img.shields.io/badge/Figma-grey?logo=figma&logoColor=F24E1E)](https://www.figma.com) | Creating wireframes. |
+| [![badge](https://img.shields.io/badge/Figma-grey?logo=figma&logoColor=F24E1E)](https://www.figma.com) | Creating mockups. |
 | [![badge](https://img.shields.io/badge/Font_Awesome-grey?logo=fontawesome&logoColor=528DD7)](https://fontawesome.com) | Icons. |
-| [![badge](https://img.shields.io/badge/ChatGPT-grey?logo=openai&logoColor=75A99C)](https://chat.openai.com) | Help debug, troubleshoot, and explain things. |
+| [![badge](https://img.shields.io/badge/ChatGPT-grey?logo=openai&logoColor=75A99C)](https://chat.openai.com) | Help debug, troubleshoot,generate text content and explain things. |
 | [![badge](https://img.shields.io/badge/W3Schools-grey?logo=w3schools&logoColor=04AA6D)](https://www.w3schools.com) | Tutorials/Reference Guide |
 
-⚠️ NOTE ⚠️
-
-Want to add more?
-
-- Tutorial: https://shields.io/badges/static-badge
-- Icons/Logos: https://simpleicons.org
-  - FYI: not all logos are available to use
-
-🛑 --- END --- 🛑
 
 ## Agile Development Process
 
