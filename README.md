@@ -131,7 +131,8 @@ Each page was designed with layout, spacing, and responsiveness in mind. These m
 
 | Page | Mobile | Tablet | Desktop |
 | --- | --- | --- | --- |
-| Home | documentation/mockups /mobile/homepage/[__]_8000_index.html(iPhone SE).png | ![screenshot](documentation/wireframes/tablet-home.png) | ![screenshot](documentation/wireframes/desktop-home.png) |
+| Home | ![screenshot](<documentation/mockups /mobile/homepage/mobile-homepage-iphone-se.png>)
+ ![screenshot](documentation/wireframes/tablet-home.png) | ![screenshot](documentation/wireframes/desktop-home.png) |
 | Portfolio | ![screenshot](documentation/wireframes/mobile-gallery.png) | ![screenshot](documentation/wireframes/tablet-gallery.png) | ![screenshot](documentation/wireframes/desktop-gallery.png) |
 | Contact | ![screenshot](documentation/wireframes/mobile-signup.png) | ![screenshot](documentation/wireframes/tablet-signup.png) | ![screenshot](documentation/wireframes/desktop-signup.png) |
 | Confirmation | ![screenshot](documentation/wireframes/mobile-confirmation.png) | ![screenshot](documentation/wireframes/tablet-confirmation.png) | ![screenshot](documentation/wireframes/desktop-confirmation.png) |
