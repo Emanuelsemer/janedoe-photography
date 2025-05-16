@@ -129,10 +129,10 @@ To ensure a clean and intentional user experience, I created high-fidelity mocku
 
 Each page was designed with layout, spacing, and responsiveness in mind. These mockups guided my HTML and CSS development and reflect the final structure of the site.
 
+
 | Page | Mobile | Tablet | Desktop |
 | --- | --- | --- | --- |
-| Home | ![screenshot](<documentation/mockups /mobile/homepage/mobile-homepage-iphone-se.png>)
- ![screenshot](documentation/wireframes/tablet-home.png) | ![screenshot](documentation/wireframes/desktop-home.png) |
+| Home | ![Mobile Home](<documentation/mockups /mobile/homepage/homepage-iphone-se.png>)|![Tablet Home](<documentation/mockups /tablet/homepage/homepage-ipad-mini.png>)  |![!\[Desktop Home\](documentation/wireframes/desktop-home.png)](<documentation/mockups /desktop/homepage/homepage.png>) |
 | Portfolio | ![screenshot](documentation/wireframes/mobile-gallery.png) | ![screenshot](documentation/wireframes/tablet-gallery.png) | ![screenshot](documentation/wireframes/desktop-gallery.png) |
 | Contact | ![screenshot](documentation/wireframes/mobile-signup.png) | ![screenshot](documentation/wireframes/tablet-signup.png) | ![screenshot](documentation/wireframes/desktop-signup.png) |
 | Confirmation | ![screenshot](documentation/wireframes/mobile-confirmation.png) | ![screenshot](documentation/wireframes/tablet-confirmation.png) | ![screenshot](documentation/wireframes/desktop-confirmation.png) |
