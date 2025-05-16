@@ -81,22 +81,24 @@ source: [janedoe-photography amiresponsive](https://ui.dev/amiresponsive?url=htt
 
 ### Colour Scheme
 
-⚠️INSTRUCTIONS ⚠️
+For this website, I chose a minimal and elegant monochrome color scheme, designed to highlight the photography work without visual distractions. The simplicity ensures that the viewer's focus stays on the photos.
 
-Explain your colors and color scheme. Consider adding a link and screenshot for your color scheme using [coolors](https://coolors.co/generate).
+Primary Background: #ffffff (white) — Used for the background across the entire site. It provides a clean and neutral canvas for both text and images.
 
-When you add a color to the palette, the URL is dynamically updated, making it easier for you to return back to your color palette later if needed. See example below:
+Text Color: #000000 (black) — Classic and high-contrast for optimal readability against the white background.
 
-⚠️ --- END --- ⚠️
+Footer Background: #f5f5f5 — A very light grey used in the footer to gently separate it from the rest of the page while maintaining the minimalist feel.
 
-I used [coolors.co](https://coolors.co/080708-3772ff-df2935-fdca40-e6e8e6) to generate my color palette.
+This timeless black-on-white design is widely used in editorial and gallery-style websites, especially for photographers and artists, because it reflects professionalism, clarity, and elegance.
 
-- `#000000` primary text.
-- `#3772FF` primary highlights.
-- `#DF2935` secondary text.
-- `#FDCA40` secondary highlights.
 
-![screenshot](documentation/coolors.png)
+I used [coolors.co]() to generate my color palette.
+
+- `#000000` (Black) Primary text.
+- `#FFFFFF` (White) Background.
+- `#f5f5f5` (Very light grey) Footer Background.
+
+![screenshot](<Screenshot 2025-05-16 at 18.09.42.png>)
 
 ### Typography
 
