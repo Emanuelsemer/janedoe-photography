@@ -15,7 +15,7 @@ The primary aim of this site is to serve as a professional and welcoming space w
 Calm, collaborative, and connection-driven, Jane’s sessions are about more than photography — they’re about helping people feel seen. This website reflects that same spirit, offering a smooth and engaging experience for anyone looking to turn real moments into lasting images.
 
 
-![screenshot of mockup](<Screenshot 2025-05-16 at 15.55.30.png>)
+![screenshot](<documentation/mockups /Screenshot 2025-05-16 at 15.55.30.png>)
 source: [janedoe-photography amiresponsive](https://ui.dev/amiresponsive?url=https://emanuelsemer.github.io/janedoe-photography)
 
 
@@ -98,36 +98,42 @@ I used [coolors.co]() to generate my color palette.
 - `#FFFFFF` (White) Background.
 - `#f5f5f5` (Very light grey) Footer Background.
 
-![screenshot](<Screenshot 2025-05-16 at 18.09.42.png>)
+![screenshot](<documentation/color palette /Screenshot 2025-05-16 at 18.09.42.png>)
 
 ### Typography
 
-⚠️ INSTRUCTIONS ⚠️
+#### Font
 
-Explain any fonts and icon libraries used, like **Google Fonts**, **Font Awesome**, etc. Consider adding a link to each font used, the Font Awesome site (if used), or similar icon library.
+The website uses the default Bootstrap font stack (--bs-body-font-family), which typically includes:
 
-⚠️ --- END --- ⚠️
+- system-ui, -apple-system, Segoe UI, Roboto, Helvetica Neue, Arial, sans-serif
 
-- [Montserrat](https://fonts.google.com/specimen/Montserrat) was used for the primary headers and titles.
-- [Lato](https://fonts.google.com/specimen/Lato) was used for all other secondary text.
-- [Font Awesome](https://fontawesome.com) icons were used throughout the site, such as the social media icons in the footer.
+This system font stack ensures fast loading, great cross-device compatibility, and a clean, modern appearance without needing external font imports.
 
-## Wireframes
+#### Icons
 
-⚠️ INSTRUCTIONS ⚠️
+The site uses Font Awesome for social media icons and other visual elements.
 
-If you've created wireframes or mock-ups, use this section to display screenshots of your wireframes. The example table below uses sample pages from the walkthrough project to give you some inspiration for your own project, so please adjust accordingly.
+Font Awesome provides scalable vector icons that are easy to customize with CSS.
 
-⚠️ --- END --- ⚠️
+Linked via CDN:
+https://kit.fontawesome.com/3b20d96fa9.js
 
-To follow best practice, wireframes were developed for mobile, tablet, and desktop sizes.
-I've used [Balsamiq](https://balsamiq.com/wireframes) to design my site wireframes.
+Official site: https://fontawesome.com/
+
+## Mock-ups
+
+![screenshot](<documentation/figma/Jane Doe photography.png>)
+
+To ensure a clean and intentional user experience, I created high-fidelity mockups for all three pages of my portrait photography website using a visual design tool inspired by Figma.
+
+Each page was designed with layout, spacing, and responsiveness in mind. These mockups guided my HTML and CSS development and reflect the final structure of the site.
 
 | Page | Mobile | Tablet | Desktop |
 | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/wireframes/mobile-home.png) | ![screenshot](documentation/wireframes/tablet-home.png) | ![screenshot](documentation/wireframes/desktop-home.png) |
-| Gallery | ![screenshot](documentation/wireframes/mobile-gallery.png) | ![screenshot](documentation/wireframes/tablet-gallery.png) | ![screenshot](documentation/wireframes/desktop-gallery.png) |
-| Signup | ![screenshot](documentation/wireframes/mobile-signup.png) | ![screenshot](documentation/wireframes/tablet-signup.png) | ![screenshot](documentation/wireframes/desktop-signup.png) |
+| Home | documentation/mockups /mobile/homepage/[__]_8000_index.html(iPhone SE).png | ![screenshot](documentation/wireframes/tablet-home.png) | ![screenshot](documentation/wireframes/desktop-home.png) |
+| Portfolio | ![screenshot](documentation/wireframes/mobile-gallery.png) | ![screenshot](documentation/wireframes/tablet-gallery.png) | ![screenshot](documentation/wireframes/desktop-gallery.png) |
+| Contact | ![screenshot](documentation/wireframes/mobile-signup.png) | ![screenshot](documentation/wireframes/tablet-signup.png) | ![screenshot](documentation/wireframes/desktop-signup.png) |
 | Confirmation | ![screenshot](documentation/wireframes/mobile-confirmation.png) | ![screenshot](documentation/wireframes/tablet-confirmation.png) | ![screenshot](documentation/wireframes/desktop-confirmation.png) |
 | 404 | ![screenshot](documentation/wireframes/mobile-404.png) | ![screenshot](documentation/wireframes/tablet-404.png) | ![screenshot](documentation/wireframes/desktop-404.png) |
 
