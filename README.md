@@ -1,4 +1,4 @@
-# janedoe-photography
+
 # [janedoe-photography](https://emanuelsemer.github.io/janedoe-photography)
 
 Developer: Emanuel Semerson ([Emanuelsemer](https://www.github.com/Emanuelsemer))
@@ -7,82 +7,67 @@ Developer: Emanuel Semerson ([Emanuelsemer](https://www.github.com/Emanuelsemer)
 [![GitHub last commit](https://img.shields.io/github/last-commit/Emanuelsemer/janedoe-photography)](https://www.github.com/Emanuelsemer/janedoe-photography/commits/main)
 [![GitHub repo size](https://img.shields.io/github/repo-size/Emanuelsemer/janedoe-photography)](https://www.github.com/Emanuelsemer/janedoe-photography)
 
-⚠️ INSTRUCTIONS ⚠️
+# Welcome to Jane Doe Portrait Photography. #
+This website is designed to introduce potential clients to Jane’s work as a New York-based portrait photographer with over ten years of professional experience. Specializing in authentic portraits, personal branding, and creative headshots, Jane’s goal is to create images that not only look beautiful — but feel honest, personal, and deeply human.
 
-In this section, include a few paragraphs providing an overview of your project. Essentially, this part is your "sales pitch". Describe what the project hopes to accomplish, who it is intended to target, and how it will be useful to the target audience.
+The primary aim of this site is to serve as a professional and welcoming space where visitors can explore her curated portfolio, learn more about her approach, and easily reach out to book a session. Whether you’re an entrepreneur, artist, actor, or simply someone who wants to be captured in a way that feels true to who you are, this site is built with you in mind.
 
-⚠️ --- END --- ⚠️
+Calm, collaborative, and connection-driven, Jane’s sessions are about more than photography — they’re about helping people feel seen. This website reflects that same spirit, offering a smooth and engaging experience for anyone looking to turn real moments into lasting images.
 
-🛑 NOTES 🛑
 
-Do not add a **Table of Contents** to your Markdown files. GitHub has these built-in automatically using the headers/hashtags.
-
-Don't add screenshots for the README/TESTING into your `assets` or `static` folders. Create a new folder at the root-level called `documentation`. Consider creating sub-directories within `documentation` to handle things like `wireframes`, `features`, `validation`, `responsiveness`, etc.
-
-**Site Mockups**
-*([amiresponsive](https://ui.dev/amiresponsive?url=https://emanuelsemer.github.io/janedoe-photography), [techsini](https://techsini.com/multi-mockup), etc.)*
-Having issues generating site mockups? This is likely due to security policies with your deployed site.
-If you open up your DevTools, there may be an error referencing `X-Frame-Options`.
-
-For Chrome users, head over to http://bit.ly/3iRPn4u and install the extension within your browser. Once installed, navigate back to the mockup site of your choice. You should find your site rendering in the various devices now.
-
-Alternatively, open your project in Gitpod and run the server. Once the site is running, click the `Ports` tab from your Gitpod Terminal. Click the padlock on the appropriate port for your project (`Flask: 5000`, `Django: 8000`). This will make your local page public temporarily. Now, copy the URL of your live-preview page into the responsive tool above. You should find your site rendering in the various devices.
-
-🛑 --- END ---- 🛑
-
-![screenshot](documentation/mockup.png)
-
+![screenshot of mockup](<Screenshot 2025-05-16 at 15.55.30.png>)
 source: [janedoe-photography amiresponsive](https://ui.dev/amiresponsive?url=https://emanuelsemer.github.io/janedoe-photography)
 
-> [!IMPORTANT]
-> The examples in these templates are strongly influenced by the Code Institute walkthrough project called "Love Running".
+
 
 ## UX
 
 ### The 5 Planes of UX
 
-⚠️ NOTE: make sure to update the text below to match your own project! ⚠️
 
 #### 1. Strategy
 
 **Purpose**
-- Encourage users to join the running club by showcasing its mission, community spirit, and benefits.
-- Provide a seamless user experience to keep users informed and engaged.
+- Showcase high-quality portrait photography to attract potential clients.
+- Make it easy for users to inquire, contact the photographer and view the photographer's work. 
 
 **Primary User Needs**
-- Learn about the club’s purpose and events.
-- Join the club and stay updated.
-- Access responsive, user-friendly content.
+- View portfolio and photography style.
+- Easily contact the photographer.
+- Getting to know the photographers background and story. 
 
 **Business Goals**
-- Increase club membership.
-- Boost participation in events and social media engagement.
+- Attract new potrait photography clients.
+- Increase inquiries and bookings. 
+- Build a recognizable personal brand through visual storytelling. 
 
 #### 2. Scope
 
 **[Features](#features)** (see below)
 
 **Content Requirements**
-- Clear, motivational text about the club’s mission.
-- Photos showcasing the community.
-- Event schedules and descriptions.
-- Forms for membership sign-up.
+- High-quality images for the homepage and portfolio.
+- Clear and authentic descriptions of photography style.
+- Contact form for inquiries and bookings.
 
 #### 3. Structure
 
 **Information Architecture**
 - **Navigation Menu**:
-  - Accessible links in the navbar.
+  - Home | Portfolio | Contact
 - **Hierarchy**:
-  - Clear call-to-action buttons.
-  - Prominent placement of social media links in the footer.
+  - Hero image with artistic feeling. 
+  - Clear call-to-action 
+  - Prominent display of featured work. 
+  - Prominent placement of social media links and contact details in the footer.
 
 **User Flow**
-1. User lands on the home page → learns about the club’s mission.
-2. Navigates to the schedule/timetable → sees sessions they can join.
-3. Views the events → checks upcoming/past event details.
-4. Signs up via the membership page.
-5. Browses the gallery → explores the community spirit.
+1. User lands on the Home page → learns about Jane Doe and her photography style.
+2. Navigates to the Portfolio page → browses through curated portrait photos. 
+3. Visits the Contact page → views the contact form and inspiring photo.
+4. Fills out and submits the contact form → sends inquiry.
+
+5. Sees confirmation → waits for Jane Doe to respond. 
 
 #### 4. Skeleton
 
