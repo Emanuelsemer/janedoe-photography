@@ -133,9 +133,10 @@ Each page was designed with layout, spacing, and responsiveness in mind. These m
 | Page | Mobile | Tablet | Desktop |
 | --- | --- | --- | --- |
 | Home | ![Mobile Home](<documentation/mockups /mobile/homepage/homepage-iphone-se.png>)|![Tablet Home](<documentation/mockups /tablet/homepage/homepage-ipad-mini.png>)  |![!\[Desktop Home\](documentation/wireframes/desktop-home.png)](<documentation/mockups /desktop/homepage/homepage.png>) |
-| Portfolio | ![screenshot](documentation/wireframes/mobile-gallery.png) | ![screenshot](documentation/wireframes/tablet-gallery.png) | ![screenshot](documentation/wireframes/desktop-gallery.png) |
-| Contact | ![screenshot](documentation/wireframes/mobile-signup.png) | ![screenshot](documentation/wireframes/tablet-signup.png) | ![screenshot](documentation/wireframes/desktop-signup.png) |
-| Confirmation | ![screenshot](documentation/wireframes/mobile-confirmation.png) | ![screenshot](documentation/wireframes/tablet-confirmation.png) | ![screenshot](documentation/wireframes/desktop-confirmation.png) |
+| Portfolio | ![!\[Mobile Portfolio\]](<documentation/mockups /mobile/portfoliopage/portfolio-iphone-se.png>) | ![Tablet Portfolio](<documentation/mockups /tablet/portfoliopage/portfolio-ipad-mini.png>)| ![Desktop Portfolio](<documentation/mockups /desktop/portfoliopage /portfolio.png>) |
+| Contact | ![Mobile Contact](<documentation/mockups /mobile/contactpage/contact-iphone-se.png>) | ![Tablet Contact](<documentation/mockups /tablet/contactpage/contact-ipad-mini.png>) | ![Desktop Contact](<documentation/mockups /desktop/contactpage/contact.png>)|
+| Confirmation | ![Mobile confirmation](<documentation/mockups /mobile/confirmation/confirmation-iphone-se.png>) | ![Tablet confirmation](<documentation/mockups /tablet/confirmation/confirmation-ipad-mini.png>)| ![Desktop confirmation](<documentation/mockups /desktop/confirmation/confirmation.png>)|
+
 | 404 | ![screenshot](documentation/wireframes/mobile-404.png) | ![screenshot](documentation/wireframes/tablet-404.png) | ![screenshot](documentation/wireframes/desktop-404.png) |
 
 ## User Stories
