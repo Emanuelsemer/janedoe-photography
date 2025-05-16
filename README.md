@@ -212,15 +212,9 @@ In this section, you should go over the different parts of your project, and des
 
 ### GitHub Projects
 
-⚠️ TIP ⚠️
+[GitHub Projects](https://www.github.com/Emanuelsemer/janedoe-photography/projects) served as an Agile tool for this project. Through it, User Stories, issues/bugs, and Milestone tasks were planned, then subsequently tracked on a regular basis using the Kanban project board.
 
-Consider adding screenshots of your Projects Board(s), Issues (open and closed), and Milestone tasks.
-
-⚠️ --- END ---⚠️
-
-[GitHub Projects](https://www.github.com/Emanuelsemer/janedoe-photography/projects) served as an Agile tool for this project. Through it, EPICs, User Stories, issues/bugs, and Milestone tasks were planned, then subsequently tracked on a regular basis using the Kanban project board.
-
-![screenshot](documentation/gh-projects.png)
+![Kanban project board](<documentation/agile development process/github project /Screenshot 2025-05-16 at 23.19.37.png>)
 
 ### GitHub Issues
 
@@ -228,17 +222,14 @@ Consider adding screenshots of your Projects Board(s), Issues (open and closed),
 
 | Link | Screenshot |
 | --- | --- |
-| [![GitHub issues](https://img.shields.io/github/issues/Emanuelsemer/janedoe-photography)](https://www.github.com/Emanuelsemer/janedoe-photography/issues) | ![screenshot](documentation/gh-issues-open.png) |
-| [![GitHub closed issues](https://img.shields.io/github/issues-closed/Emanuelsemer/janedoe-photography)](https://www.github.com/Emanuelsemer/janedoe-photography/issues?q=is%3Aissue+is%3Aclosed) | ![screenshot](documentation/gh-issues-closed.png) |
+| [![GitHub issues](https://img.shields.io/github/issues/Emanuelsemer/janedoe-photography)](https://www.github.com/Emanuelsemer/janedoe-photography/issues) | ![open issues](<documentation/agile development process/github issues /open/Screenshot 2025-05-16 at 23.26.34.png>)|
+| [![GitHub closed issues](https://img.shields.io/github/issues-closed/Emanuelsemer/janedoe-photography)](https://www.github.com/Emanuelsemer/janedoe-photography/issues?q=is%3Aissue+is%3Aclosed) | ![closed issues](<documentation/agile development process/github issues /closed/Screenshot 2025-05-16 at 23.26.59.png>) |
 
 ### MoSCoW Prioritization
 
-I've decomposed my Epics into User Stories for prioritizing and implementing them. Using this approach, I was able to apply "MoSCoW" prioritization and labels to my User Stories within the Issues tab.
+I've decomposed my Epics into User Stories for prioritizing and implementing them. Using this approach, I was able to apply "MoSCoW" prioritization and labels to my User Stories within the Issues tab. I created the User Stories from the requirements for the milestone project. 
 
-- **Must Have**: guaranteed to be delivered - required to Pass the project (*max ~60% of stories*)
-- **Should Have**: adds significant value, but not vital (*~20% of stories*)
-- **Could Have**: has small impact if left out (*the rest ~20% of stories*)
-- **Won't Have**: not a priority for this iteration - future features
+- **Must Have**: guaranteed to be delivered - required to Pass the project 
 
 ## Testing
 
@@ -292,12 +283,6 @@ By forking the GitHub Repository, you make a copy of the original repository on 
 
 ### Local VS Deployment
 
-⚠️ INSTRUCTIONS ⚠️
-
-Use this space to discuss any differences between the local version you've developed, and the live deployment site. Generally, there shouldn't be [m]any major differences, so if you honestly cannot find any differences, feel free to use the following example:
-
-⚠️ --- END --- ⚠️
-
 There are no remaining major differences between the local version when compared to the deployed version online.
 
 ## Credits
@@ -324,28 +309,40 @@ Use this space to provide attribution links for any borrowed code snippets, elem
 | [Bootstrap](https://getbootstrap.com) | Various components / responsive front-end framework |
 | [ChatGPT](https://chatgpt.com) | Help with code logic and explanations |
 
-### Media
+## Media
 
-⚠️ INSTRUCTIONS ⚠️
+All photos used in this project were sourced from Pexels, a free and royalty-free media platform. Attribution is not required under their license, but full credit is listed below to respect the creators.
 
-Use this space to provide attribution links to any media files borrowed from elsewhere (images, videos, audio, etc.). If you're the owner (or a close acquaintance) of some/all media files, then make sure to specify this information. Let the assessors know that you have explicit rights to use the media files within your project. Ideally, you should provide an actual link to every media file used, not just a generic link to the main site, unless it's AI-generated artwork.
+### Home Page & Contact Page 
 
-Looking for some media files? Here are some popular sites to use. The list of examples below is by no means exhaustive. Within the Code Institute Slack community, you can find more "free media" links by sending yourself (or Slackbot) the following command: `!freemedia`.
+| **Usage**                            | **Photographer**  | **Link**                                                                             |
+| ------------------------------------ | ----------------- | ------------------------------------------------------------------------------------ |
+| Portrait of Jane Doe (About section) | Majestical Jasmin | [View on Pexels](https://www.pexels.com/photo/vag-natur-kvinna-kamera-5870338/)      |
+| Hero Image (Home)                    | Yan Krukau        | [View on Pexels](https://www.pexels.com/photo/kvinna-dans-rorlig-bokeh-6616717/)     |
+| Contact Page Background              | Lil Artsy         | [View on Pexels](https://www.pexels.com/photo/hands-covered-in-black-paint-5541019/) |
 
-- Images
-    - [Pexels](https://www.pexels.com)
-    - [Unsplash](https://unsplash.com)
-    - [Pixabay](https://pixabay.com)
-    - [Lorem Picsum](https://picsum.photos) (placeholder images)
-    - [Wallhere](https://wallhere.com) (wallpaper / backgrounds)
-    - [This Person Does Not Exist](https://thispersondoesnotexist.com) (reload to get a new person)
-- Audio
-    - [Audio Micro](https://www.audiomicro.com/free-sound-effects)
-- Video
-    - [Videvo](https://www.videvo.net)
+### Portfolio Images
+
+| **Description**                              | **Photographer**  | **Link**                                                                                            |
+| -------------------------------------------- | ----------------- | --------------------------------------------------------------------------------------------------- |
+| Tattooed woman seated in red pants           | Mozzapics         | [View](https://www.pexels.com/sv-se/foto/portratt-av-en-tatuerad-kvinna-i-rodbruna-byxor-31948311/) |
+| Elderly man with a straw hat                 | Gustavo Fring     | [View](https://www.pexels.com/photo/1933873/)                                                       |
+| Black and white vintage woman with cigarette | Guilherme Almeida | [View](https://www.pexels.com/photo/1858175/)                                                       |
+| Woman with dramatic lighting in black dress  | Shahin Khalaji    | [View](https://www.pexels.com/photo/14497001/)                                                      |
+| Studio-lit woman dancing                     | Shutter Craftsman | [View](https://www.pexels.com/photo/31856525/)                                                      |
+| Woman in hat with red curly hair             | Pete79            | [View](https://www.pexels.com/photo/19908239/)                                                      |
+| Man with sunglasses and saxophone            | DJ Saxxo          | [View](https://www.pexels.com/photo/16543610/)                                                      |
+| Woman in veil with striking green eyes       | Jonaorle          | [View](https://www.pexels.com/photo/4029925/)                                                       |
+| Baby girl in pink with balloons              | Ifeyin Ka Studios | [View](https://www.pexels.com/photo/29899042/)                                                      |
+| Laughing woman in modern chair               | Cottonbro Studio  | [View](https://www.pexels.com/photo/7319479/)                                                       |
+| Glitter-covered woman posing creatively      | Kool Shooters     | [View](https://www.pexels.com/photo/7693358/)                                                       |
+| Smiling man in sunlight                      | Chloe Kala Artist | [View](https://www.pexels.com/photo/1043474/)                                                       |
+
+
+
 - Image Compression
     - [TinyPNG](https://tinypng.com) (for images <5MB)
-    - [CompressPNG](https://compresspng.com) (for images >5MB)
+
 
 A few examples have been provided below to give you some ideas on how to do your own Media credits.
 
@@ -357,12 +354,7 @@ A few examples have been provided below to give you some ideas on how to do your
 | [Rosie CV](https://codeinstitute.net) | Sample images provided from the walkthrough projects |
 | [Font Awesome](https://fontawesome.com) | Icons used throughout the site |
 | [Pexels](https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg) | Hero image |
-| [Wallhere](https://c.wallhere.com/images/9c/c8/da4b4009f070c8e1dfee43d25f99-2318808.jpg!d) | Background wallpaper |
-| [Pixabay](https://cdn.pixabay.com/photo/2017/09/04/16/58/passport-2714675_1280.jpg) | Background wallpaper |
-| [DALL-E 3](https://openai.com/index/dall-e-3) | AI generated artwork |
 | [TinyPNG](https://tinypng.com) | Compressing images < 5MB |
-| [CompressPNG](https://compresspng.com) | Compressing images > 5MB |
-| [CloudConvert](https://cloudconvert.com/webp-converter) | Converting images to `.webp` |
 
 ### Acknowledgements
 
