@@ -304,10 +304,10 @@ Use this space to provide attribution links for any borrowed code snippets, elem
 | Source | Notes |
 | --- | --- |
 | [Markdown Builder](https://markdown.2bn.dev) | Help generating Markdown files |
-| [Chris Beams](https://chris.beams.io/posts/git-commit) | "How to Write a Git Commit Message" |
-| [Rosie Resumé](https://codeinstitute.net) | Code Institute walkthrough project inspiration |
+| [Light_trails website](https://github.com/RazmikMovsisyan/light_trails) | Photography website inspired by contact details in footer section |
+| [Love running project](https://github.com/Code-Institute-Solutions/love-running-v3/blob/main/7.2-styling-the-form/index.html) | Code Institute walkthrough project inspiration for footer social media links. |
 | [Bootstrap](https://getbootstrap.com) | Various components / responsive front-end framework |
-| [ChatGPT](https://chatgpt.com) | Help with code logic and explanations |
+| [ChatGPT](https://chatgpt.com) | Help with code logic, explanations and generate text content. |
 
 ## Media
 
@@ -339,19 +339,9 @@ All photos used in this project were sourced from Pexels, a free and royalty-fre
 | Smiling man in sunlight                      | Chloe Kala Artist | [View](https://www.pexels.com/photo/1043474/)                                                       |
 
 
-
-- Image Compression
-    - [TinyPNG](https://tinypng.com) (for images <5MB)
-
-
-A few examples have been provided below to give you some ideas on how to do your own Media credits.
-
-⚠️ --- END ---⚠️
-
 | Source | Notes |
 | --- | --- |
 | [favicon.io](https://favicon.io) | Generating the favicon |
-| [Rosie CV](https://codeinstitute.net) | Sample images provided from the walkthrough projects |
 | [Font Awesome](https://fontawesome.com) | Icons used throughout the site |
 | [Pexels](https://images.pexels.com/photos/416160/pexels-photo-416160.jpeg) | Hero image |
 | [TinyPNG](https://tinypng.com) | Compressing images < 5MB |
@@ -367,6 +357,6 @@ Use this space to provide attribution and acknowledgement to any supports that h
 - I would like to thank my Code Institute mentor, [Tim Nelson](https://www.github.com/TravelTimN) for the support throughout the development of this project.
 - I would like to thank the [Code Institute](https://codeinstitute.net) Tutor Team for their assistance with troubleshooting and debugging some project issues.
 - I would like to thank the [Code Institute Slack community](https://code-institute-room.slack.com) for the moral support; it kept me going during periods of self doubt and impostor syndrome.
-- I would like to thank my partner, for believing in me, and allowing me to make this transition into software development.
-- I would like to thank my employer, for supporting me in my career development change towards becoming a software developer.
+- I would like to thank my friends and family, for believing in me, and allowing me to make this transition into software development.
+
 
