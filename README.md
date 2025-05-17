@@ -272,7 +272,7 @@ I've tested my deployed project on multiple browsers to check for compatibility 
 | Portfolio | ![Chrome Portfolio](<documentation/testing/browser compatiblity /chrome/portfolio/portfoliopage.png>) | ![Firefox Portfolio](<documentation/testing/browser compatiblity /firefox/portfolio/Screenshot 2025-05-17 at 02-47-11 Jane Doe Photography.png>) | ![screenshot](documentation/browsers/safari-gallery.png) | Works as expected |
 | Contact | ![Chrome Contact](<documentation/testing/browser compatiblity /chrome/contact/contactpage.png>) | ![Firefox Contact](<documentation/testing/browser compatiblity /firefox/contact/Screenshot 2025-05-17 at 02-48-27 Jane Doe Photography.png>)| ![screenshot](documentation/browsers/safari-signup.png) | Works as expected |
 | Confirmation | ![Chrome Confirmation](<documentation/testing/browser compatiblity /chrome/confirmation/confirmation.png>)| ![Firefox Confirmation](<documentation/testing/browser compatiblity /firefox/confirmation/Screenshot 2025-05-17 at 02-50-20 Message Sent Jane Doe Photography.png>) | ![screenshot](documentation/browsers/safari-confirmation.png) | Works as expected |
-| 404 | ![Chrome 404](<documentation/testing/browser compatiblity /chrome/404/404.png>)| ![screenshot](documentation/browsers/firefox-404.png) | ![screenshot](documentation/browsers/safari-404.png) | Works as expected |
+| 404 | ![Chrome 404](<documentation/testing/browser compatiblity /chrome/404/404.png>)| ![Firefox 404](<documentation/testing/browser compatiblity /firefox/404/Screenshot 2025-05-17 at 02-57-01 Page Not Found Jane Doe Photography.png>) | ![Safari 404](<documentation/testing/browser compatiblity /safari/404/Screenshot 2025-05-17 at 02.59.11.png>) | Works as expected |
 
 ## Lighthouse Audit
 
