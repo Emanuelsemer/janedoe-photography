@@ -222,6 +222,11 @@ I've decomposed my Epics into User Stories for prioritizing and implementing the
 
 - **Must Have**: guaranteed to be delivered - required to Pass the project 
 
+## Note on Commit Messages
+
+After receiving feedback from my mentor, I improved the way I write commit messages. Earlier messages may lack clarity or structure, but later commits follow a more consistent and descriptive format to better reflect best practices.
+
+
 # Testing
 
 
