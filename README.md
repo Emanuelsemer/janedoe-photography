@@ -290,7 +290,7 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 
 | Page | Mobile | Desktop |
 | --- | --- | --- |
-| Home | ![screenshot](documentation/lighthouse/mobile-home.png) | ![screenshot](documentation/lighthouse/desktop-home.png) |
+| Home | ![Mobile Home](<documentation/testing/lighthouse/home/mobile/Screenshot 2025-05-17 at 03.19.05.png>)| ![Desktop Home](<documentation/testing/lighthouse/home/desktop/Screenshot 2025-05-17 at 03.20.27.png>)|
 | Portfolio | ![screenshot](documentation/lighthouse/mobile-gallery.png) | ![screenshot](documentation/lighthouse/desktop-gallery.png) |
 | Contact | ![screenshot](documentation/lighthouse/mobile-signup.png) | ![screenshot](documentation/lighthouse/desktop-signup.png) |
 | Confirmation | ![screenshot](documentation/lighthouse/mobile-confirmation.png) | ![screenshot](documentation/lighthouse/desktop-confirmation.png) |
