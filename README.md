@@ -256,11 +256,11 @@ I've tested my deployed project to check for responsiveness issues.
 
 | Page | Mobile | Tablet | Desktop | Notes |
 | --- | --- | --- | --- | --- |
-| Home | ![screenshot](documentation/responsiveness/mobile-home.png) | ![screenshot](documentation/responsiveness/tablet-home.png) | ![screenshot](documentation/responsiveness/desktop-home.png) | Works as expected |
-| Portfolio | ![screenshot](documentation/responsiveness/mobile-gallery.png) | ![screenshot](documentation/responsiveness/tablet-gallery.png) | ![screenshot](documentation/responsiveness/desktop-gallery.png) | Works as expected |
-| Contact | ![screenshot](documentation/responsiveness/mobile-signup.png) | ![screenshot](documentation/responsiveness/tablet-signup.png) | ![screenshot](documentation/responsiveness/desktop-signup.png) | Works as expected |
-| Confirmation | ![screenshot](documentation/responsiveness/mobile-confirmation.png) | ![screenshot](documentation/responsiveness/tablet-confirmation.png) | ![screenshot](documentation/responsiveness/desktop-confirmation.png) | Works as expected |
-| 404 | ![screenshot](documentation/responsiveness/mobile-404.png) | ![screenshot](documentation/responsiveness/tablet-404.png) | ![screenshot](documentation/responsiveness/desktop-404.png) | Works as expected |
+| Home | ![Mobile Home](documentation/testing/responsivness/mobile/homepage/homepage-iphone-se.png)|  ![Tablet Home](documentation/testing/responsivness/tablet/homepage/homepage-ipad-mini.png)| ![Desktop Home](documentation/testing/responsivness/desktop/homepage/homepage.png) | Works as expected |
+| Portfolio | ![Mobile Portfolio](documentation/testing/responsivness/mobile/portfoliopage/portfolio-iphone-se.png) | ![Tablet Portfolio](documentation/testing/responsivness/tablet/portfoliopage/portfolio-ipad-mini.png)| ![Desktop Portfolio](<documentation/testing/responsivness/desktop/portfoliopage /portfolio.png>) | Works as expected |
+| Contact | ![Mobile Contact](documentation/testing/responsivness/mobile/contactpage/contact-iphone-se.png)| ![Tablet Contact](documentation/testing/responsivness/tablet/contactpage/contact-ipad-mini.png)| ![Desktop Contact](documentation/testing/responsivness/desktop/contactpage/contact.png)| Works as expected |
+| Confirmation | ![Mobile Confirmation](documentation/testing/responsivness/mobile/confirmation/confirmation-iphone-se.png) | ![Tablet Confirmation](documentation/testing/responsivness/tablet/confirmation/confirmation-ipad-mini.png)| ![Desktop Confirmation](documentation/testing/responsivness/desktop/confirmation/confirmation.png) | Works as expected |
+| 404 | ![Mobile 404](documentation/testing/responsivness/mobile/404/404-iphone-se.png) | ![Tablet 404](documentation/testing/responsivness/tablet/404/404-ipad-mini.png)| ![Desktop 404](documentation/testing/responsivness/desktop/404/404.png) | Works as expected |
 
 ## Browser Compatibility
 
