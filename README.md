@@ -314,67 +314,38 @@ Most of your project's **Features** should already align with the **User Stories
 
 ⚠️ --- END --- ⚠️
 
-| Target | Expectation | Outcome | Screenshot | 
-| --- | --- | --- | --- | 
-| As a user | I would like to see examples of why I should join | so that I can learn about the club’s mission and purpose before deciding to join. | ![screenshot](documentation/features/feature01.png) |
-| As a user | I would like to view the running schedule/timetable | so that I can decide when to join a session. | ![screenshot](documentation/features/feature02.png) |
-| As a user | I would like to see the details of different running events | so that I can prepare accordingly. | ![screenshot](documentation/features/feature03.png) |
-| As a user | I would like to view a gallery of past events | so that I can see photos of myself and others from previous runs. | ![screenshot](documentation/features/feature04.png) |
-| As a user | I would like to sign up for the running club | so that I can join the community and participate in events. | ![screenshot](documentation/features/feature05.png) |
-| As a user | I would like to follow the club on various platforms (e.g., Instagram, Facebook, Twitter) | so that I can stay updated with club news and events. | ![screenshot](documentation/features/feature06.png) |
-| As a user | I would like the website to be fully responsive | so that I can easily navigate and access information from my phone, tablet, or desktop. | ![screenshot](documentation/features/feature07.png) |
-| As a user | I would like to see a 404 error page if I get lost | so that it's obvious that I've stumbled upon a page that doesn't exist. | ![screenshot](documentation/features/feature08.png) |
+| **Target**            | **Expectation**                                                 | **Outcome**                                                      | **Screenshot**                                                |
+| --------------------- | --------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------- |
+| As a user             | I want to see a clear main navigation menu                      | so that I can easily move between the main sections of the site. | ![navbar](<documentation/testing/user stories testing/navbar/Screenshot 2025-05-16 at 22.04.28.png>)                  |
+| As a user             | I want the content to be structured with clear headings         | so that I can find what I’m looking for without confusion.       | ![home](<documentation/testing/user stories testing/homepage/homepage.png>)       |
+| As a user             | I want the website to adjust to my screen size                  | so that I can use it comfortably on any device.                  | ![responsive](<documentation/testing/user stories testing/responsive/Screenshot 2025-05-16 at 15.55.30.png>)|
+| As a user             | I want high contrast and alt text for images                    | so that I can understand the content using assistive technology. | ![alt text](<documentation/testing/user stories testing/alt text code /Screenshot 2025-05-17 at 04.40.26.png>)|
+| As a visitor          | I want all graphics to have a consistent style and color scheme | so the site looks professional and unified.                      | ![portfolio](<documentation/testing/user stories testing/portfolio/portfolio.png>)  |
+| As a visitor          | I want foreground content to remain clear and readable          | so I can focus on the text without distraction from backgrounds. | ![About me text](<documentation/testing/user stories testing/homepage/homepage.png>)   |
+| As a potential client | I want to view a gallery of portrait images                     | so I can evaluate the photographer’s style and quality.          | ![portfolio grid](<documentation/testing/user stories testing/portfolio/portfolio.png>)      |
+| As a visitor          | I want to read about the photographer                           | so I can understand their background and creative approach.      | ![about me ](<documentation/testing/user stories testing/about/Screenshot 2025-05-16 at 22.08.46.png>)   |
+| As a potential client | I want to contact the photographer via a form                   | so I can easily request a portrait session.                      | ![contact form](<documentation/testing/user stories testing/contact form/Screenshot 2025-05-16 at 22.14.30.png>)   |
+
+
+
 
 ## Bugs
 
-⚠️ INSTRUCTIONS ⚠️
+For this project, I tracked bugs manually using paper notes and Apple Notes as a lightweight way to keep track of issues and fixes during development. While this method helped me stay organized in the short term, I’ve come to realize that using version control tools like GitHub Issues would have been far more effective. In future projects, I plan to fully adopt GitHub’s integrated issue tracking system to document bugs, feature requests, and fixes more efficiently, and to make the development process more transparent and collaborative.
 
-Nobody likes bugs,... except the assessors! Projects seem more suspicious if a student doesn't properly track their bugs. If you're about to submit your project without any bugs listed below, you should ask yourself why you're doing this course in the first place, if you're able to build this entire application without running into any bugs. The best thing you can do for any project is to document your bugs! Not only does it show the true stages of development, but think of it as breadcrumbs for yourself in the future, should you encounter the same/similar bug again, it acts as a gentle reminder on what you did to fix the bug.
+| **Bug**                                                        | **Description**                                                                                                                                                | **Fix Implemented**                                                                             | **Status**           |
+| -------------------------------------------------------------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------- | -------------------- |
+| **Image not displaying on GitHub Pages**                       | Image links were broken due to folder name being `Portfolio` (uppercase), while the actual folder was named `portfolio` (lowercase). GitHub is case-sensitive. | Renamed the folder to match the correct lowercase path and updated all image paths in the code. | ✅ Fixed              |
+| **Form submission issue**                                      | Form was reloading the page instead of redirecting to success message.                                                                                         | Used JavaScript `event.preventDefault()` and added a redirect to `success.html`.                | ✅ Fixed              |
+| **CMD + Shift + R not working in Safari**                      | You expected it to hard refresh the page, but Safari does not support this shortcut.                                                                           | Used right-click on the reload icon + “Empty Caches” instead, or `Cmd + Option + E`.            | ✅ Workaround applied |
+| **Navbar not accessible by keyboard**                          | Navigation was working but hadn’t been explicitly tested for accessibility.                                                                                    | Verified keyboard focus, semantic HTML, and added ARIA labels to external links.                | ✅ Confirmed          |
+| **Background image overlayed the contact form poorly**         | The background image in the contact page header clashed with form readability.                                                                                 | Adjusted form placement and contrast, ensured it was not layered over background image.         | ✅ Adjusted visually  |
+| **Pexels image search link used instead of direct image link** | Attribution included a search results page instead of a direct link.                                                                                           | Updated with the correct individual image URLs for attribution.                                 | ✅ Corrected          |
+| **Contact button not linking to contact page**                 | A `<button>` element was used with an `href`, which doesn't work in HTML.                                                                                      | Replaced `<button>` with an `<a>` element and added `href="contact.html"` to fix the issue.     | ✅ Fixed              |
 
-If/when you encounter bugs during the development stages of your project, you should document them here, ideally with a screenshot explaining what the issue was, and what you did to fix the bug.
-
-Alternatively, an improved way to manage bugs is to use the built-in **[Issues](https://www.github.com/Emanuelsemer/janedoe-photography/issues)** tracker on your GitHub repository. This can be found at the top of your repository, the tab called "Issues".
-
-If using the Issues tracker for bug management, you can simplify the documentation process for testing. Issues allow you to directly paste screenshots into the issue page without having to first save the screenshot locally. You can add labels to your issues (e.g. `bug`), assign yourself as the owner, and add comments/updates as you progress with fixing the issue(s). Once you've solved the issue/bug, you should then "Close" it.
-
-When showcasing your bug tracking for assessment, you can use the following examples below.
-
-⚠️ --- END --- ⚠️
-
-### Fixed Bugs
-
-[![GitHub issue custom search](https://img.shields.io/github/issues-search?query=repo%3AEmanuelsemer%2Fjanedoe-photography%20label%3Abug&label=bugs)](https://www.github.com/Emanuelsemer/janedoe-photography/issues?q=is%3Aissue+is%3Aclosed+label%3Abug)
-
-I've used [GitHub Issues](https://www.github.com/Emanuelsemer/janedoe-photography/issues) to track and manage bugs and issues during the development stages of my project.
-
-All previously closed/fixed bugs can be tracked [here](https://www.github.com/Emanuelsemer/janedoe-photography/issues?q=is%3Aissue+is%3Aclosed+label%3Abug).
-
-![screenshot](documentation/bugs/gh-issues-closed.png)
-
-### Unfixed Bugs
-
-⚠️ INSTRUCTIONS ⚠️
-
-You will need to mention any unfixed bugs and why they are not fixed upon submission of your project. This section should include shortcomings of the frameworks or technologies used. Although time can be a big variable to consider, paucity of time and difficulty understanding implementation is not a valid reason to leave bugs unfixed. Where possible, you must fix all outstanding bugs, unless outside of your control.
-
-If you've identified any unfixed bugs, no matter how small, be sure to list them here! It's better to be honest and list them, because if it's not documented and an assessor finds the issue, they need to know whether or not you're aware of them as well, and why you've not corrected/fixed them.
-
-⚠️ --- END --- ⚠️
-
-[![GitHub issues](https://img.shields.io/github/issues/Emanuelsemer/janedoe-photography)](https://www.github.com/Emanuelsemer/janedoe-photography/issues)
-
-Any remaining open issues can be tracked [here](https://www.github.com/Emanuelsemer/janedoe-photography/issues).
-
-![screenshot](documentation/bugs/gh-issues-open.png)
 
 ### Known Issues
 
-| Issue | Screenshot |
-| --- | --- |
-| On devices smaller than 375px, the page starts to have horizontal `overflow-x` scrolling. | ![screenshot](documentation/issues/overflow.png) |
-| When validating HTML with a semantic `<section>` element, the validator warns about lacking a header `h2-h6`. This is acceptable. | ![screenshot](documentation/issues/section-header.png) |
-
-> [!IMPORTANT]
 > There are no remaining bugs that I am aware of, though, even after thorough testing, I cannot rule out the possibility.
 
 
