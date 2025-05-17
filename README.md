@@ -306,14 +306,6 @@ Defensive programming was manually tested with the below user acceptance testing
 
 ## User Story Testing
 
-⚠️ INSTRUCTIONS ⚠️
-
-Testing User Stories is actually quite simple, once you've already got the stories defined on your README.
-
-Most of your project's **Features** should already align with the **User Stories**, so this should be as simple as creating a table with the User Story, matching with the re-used screenshot from the respective Feature.
-
-⚠️ --- END --- ⚠️
-
 | **Target**            | **Expectation**                                                 | **Outcome**                                                      | **Screenshot**                                                |
 | --------------------- | --------------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------- |
 | As a user             | I want to see a clear main navigation menu                      | so that I can easily move between the main sections of the site. | ![navbar](<documentation/testing/user stories testing/navbar/Screenshot 2025-05-16 at 22.04.28.png>)                  |
