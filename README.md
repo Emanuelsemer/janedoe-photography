@@ -291,10 +291,10 @@ I've tested my deployed project using the Lighthouse Audit tool to check for any
 | Page | Mobile | Desktop |
 | --- | --- | --- |
 | Home | ![Mobile Home](<documentation/testing/lighthouse/home/mobile/Screenshot 2025-05-17 at 03.19.05.png>)| ![Desktop Home](<documentation/testing/lighthouse/home/desktop/Screenshot 2025-05-17 at 03.20.27.png>)|
-| Portfolio | ![screenshot](documentation/lighthouse/mobile-gallery.png) | ![screenshot](documentation/lighthouse/desktop-gallery.png) |
-| Contact | ![screenshot](documentation/lighthouse/mobile-signup.png) | ![screenshot](documentation/lighthouse/desktop-signup.png) |
-| Confirmation | ![screenshot](documentation/lighthouse/mobile-confirmation.png) | ![screenshot](documentation/lighthouse/desktop-confirmation.png) |
-| 404 | ![screenshot](documentation/lighthouse/mobile-404.png) | ![screenshot](documentation/lighthouse/desktop-404.png) |
+| Portfolio | ![Mobile Portfolio](<documentation/testing/lighthouse/portfolio/mobile/Screenshot 2025-05-17 at 03.27.20.png>) | ![Desktop Portfolio](<documentation/testing/lighthouse/portfolio/desktop/Screenshot 2025-05-17 at 03.40.33.png>) |
+| Contact | ![Mobile Contact](<documentation/testing/lighthouse/contact/mobile/Screenshot 2025-05-17 at 03.41.39.png>) | ![Desktop Contact](<documentation/testing/lighthouse/contact/desktop/Screenshot 2025-05-17 at 03.42.28.png>)|
+| Confirmation | ![Mobile Confirmation](<documentation/testing/lighthouse/confirmation/mobile/Screenshot 2025-05-17 at 03.46.07.png>) | ![Desktop Confirmation](<documentation/testing/lighthouse/confirmation/desktop/Screenshot 2025-05-17 at 03.46.41.png>) |
+| 404 | ![Mobile 404](<documentation/testing/lighthouse/404/mobile/Screenshot 2025-05-17 at 03.48.20.png>)| ![Desktop 404](<documentation/testing/lighthouse/404/desktop/Screenshot 2025-05-17 at 03.48.46.png>) |
 
 ## Defensive Programming
 
